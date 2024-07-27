@@ -1,0 +1,35 @@
+.main-content-holder {
+  display: grid;
+  row-gap: 16px;
+}
+
+.content-grid-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+}
+
+.content-grid-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px
+}
+
+.content-grid-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px
+}
+
+.content-grid-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px
+}
+
+.subgrid-two {
+  display: grid;
+  row-gap: 16px;
+  height: 100%;
+}
+

@@ -1,0 +1,54 @@
+.grid-c6 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        114.07deg,
+        rgba(66, 59, 55, 0.6) 3.49%,
+        rgba(66, 59, 55, 0) 34.7%
+    ),
+    linear-gradient(138.58deg, rgba(59, 43, 30, 0.37) 43.56%, rgb(149, 114, 114) 112.68%);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.grid-c-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.grid-c-title-text {
+    margin: 0;
+    color: #333;
+}
+
+.grid-c-title-icon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 24px;
+}
+
+.chart-grid-item h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .grid-c1 {
+        grid-column-start:1 ;
+        grid-column-end: 3;
+    }
+    
+    .grid-c-title-icon {
+        font-size: 20px;
+    }
+}

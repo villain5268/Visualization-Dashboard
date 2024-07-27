@@ -1,0 +1,14 @@
+.grid-c2 .grid-item {
+    display: flex;
+}
+
+.grid-c2 .grid-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.grid-c2 .grid-item h3{
+    color: crimson;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "visualization-dashboard",
+  "version": "1.0.0",
+  "description": "Data Visualization Dashboard using MERN Stack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deependra Singh",
+  "license": "ISC"
+}
